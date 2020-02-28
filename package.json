@@ -6,7 +6,8 @@
   "types": "./lib/index.d.ts",
   "scripts": {
     "test": "jest",
-    "tsc": "tsc"
+    "tsc": "tsc",
+    "prepublish": "tsc"
   },
   "repository": {
     "type": "git",
